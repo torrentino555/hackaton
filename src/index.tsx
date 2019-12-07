@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 import * as serviceWorker from './serviceWorker';
 import { ConnectedRouter } from 'connected-react-router'
 import configureStore, { history } from './configureStore'
+import ErrorHandler from './pages/ErrorHandler'
 
 
 const { store } = configureStore()
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Provider store={ store }>
         <ConnectedRouter history={ history }>
             <App/>
+            <ErrorHandler />
         </ConnectedRouter>
     </Provider>,
     document.getElementById('root')

@@ -1,3 +1,37 @@
-.App {
-
+:root {
+    --green: #68c981;
+    --lime-green: #5DB875;
+    --dark-green: #1aa460;
+    --dingy-green: rgba(89, 190, 115, 0.5);
+    --selection-green: rgba(89, 190, 115, 0.3);
+    --light-grayish-cyan: #DDF1E7;
+    --grey: #b1b9c2;
+    --transparent-grey: rgba(177, 185, 194, 0.5);
+    --mischka: #E1E2E8;
+    --light-grayish-blue: #E0E3E8;
+    --dark-grayish-blue: #8A8B8F;
+    --santas-gray: #9C9FB1;
+    --link-water: #D1D2D8;
+    --light-grey: #d8dadd;
+    --very-light-grey: #f3f5f9;
+    --catskill-white: #edf1f7;
+    --black: #1a1f3b;
+    --port-gore: #191f3b;
+    --very-dark-grayish-blue: #3c4058;
+    --shark: #252627;
+    --red: #fc3a30;
+    --light-red: #ff6c64;
+    --dull-grey: #babbc4;
+    --bittersweet: #ff6f61;
+    --orange: #f0cb17;
+    --electric: #009bc6;
+    --glacier: #7bc0bd;
+    --jungle: #34a68d;
+    --mulberry: #b26098;
+    --bright-orange: #fbaf3d;
+    --dark-moderate-blue: #4c4da9;
+    --light-blue: #6377ff;
+    --blue: #0b78e3;
+    --yellow-green: #c3d672;
+    --heather: rgba(176, 184, 193, 0.5);
 }

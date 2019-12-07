@@ -14,7 +14,7 @@ export const history = createBrowserHistory()
 const composeEnhancers = composeWithDevTools({})
 const sagaMiddleware = createSagaMiddleware()
 
-const createRootReducer = (history: History) => combineReducers<State>({
+const createRootReducer = (history: History) => combineReducers<any>({
     router: connectRouter(history),
     ...reducers
 })
