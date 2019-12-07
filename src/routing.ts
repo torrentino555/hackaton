@@ -1,5 +1,7 @@
 /*eslint-disable */
 export enum Routes {
     HOME = '/',
-    KEK = '/KEK'
+    PRODUCTS = '/products',
+    PRODUCT = '/product/:productId/:companyId',
+    NOT_FOUND = '/404',
 }
